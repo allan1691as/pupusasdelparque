@@ -54,4 +54,10 @@
     .navcontent{
         width: 100%;
     }
+    .navcontent span{
+        margin-left:37%;
+    }
+    .navcontent p{
+        margin-left:45%;
+    }
 }
