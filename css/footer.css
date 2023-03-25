@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius&family=Edu+QLD+Beginner:wght@500&family=Inconsolata&family=Lilita+One&family=Roboto+Mono&family=Roboto:wght@300&family=Tilt+Neon&display=swap');
-
+:root{
+    --fontcolor:#89D95A;
+}
 .footer{
     width: 100%;
     height: 300px;
@@ -14,39 +16,19 @@
 width: 30%;
 height: 80%;
 margin: 0 5px;
+border: 1px solid black;
 display: flex;
 justify-content: center;
 align-items: center;
 }
-.footercontent{
-    width: 95%;
-    height: 40%;
+.footerlogo img{
+    width:90%;
+    height:200px;
 }
 
-.footercontent span{
-    color:rgb(6, 74, 6);
-    font-size:2.3em;
-    margin:5% 27%;
-    /*font-family: 'Poiret One', cursive;*/
-    font-family:'Lilita One', cursive;
-    font-weight:500;
- }
- #linefooter{
-     margin: 0px auto;
-   width: 70%;
-   height: 3px;
-   background-color:yellow;
- }
- .footercontent p{
-     margin:-2px 35%;
-     color:red;
-     font-size: 1.2em;
-     font-family: 'Poiret One', cursive;
-     font-weight:600;
- }
-
 .footersocials{
-    width: 30%;
+border:1px solid black;
+width: 30%;
 height:80%;
 margin: 0 5px;
 display: flex;
@@ -55,8 +37,8 @@ align-items: center;
 justify-content: center;
 }
 .footersocials span{
-    color:#fff;
-    background-color:rgba(204, 204, 204, 0.533);
+    color:var(--fontcolor);
+    font-size: 1.2em;
     font-weight: bolder;
     display: flex;
     justify-content: center;
@@ -81,12 +63,14 @@ justify-content: center;
 .footerlocation h2{
     font-family: 'Delius', cursive;
     font-weight:bold;
+    color:var(--fontcolor);
 }
 .footerlocation p{
     width: 70%;
     margin: 0 auto;
     font-family: 'Delius', cursive;
     font-weight:bold;
+    color:var(--fontcolor);
 }
 .icongps{
     width: 50px;
@@ -98,7 +82,7 @@ justify-content: center;
     }
     .footerlogo{
         width: 100%;
-        height: 20%;
+        height: 40%;
     }
     .footersocials{
         width: 100%;
@@ -113,7 +97,7 @@ justify-content: center;
         display: flex;
     }
     .footerlocation p{
-        
-        width:95%;
+         width:95%;
     }
 }
+
