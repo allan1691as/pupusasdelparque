@@ -16,7 +16,6 @@
 width: 30%;
 height: 80%;
 margin: 0 5px;
-border: 1px solid black;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -27,7 +26,6 @@ align-items: center;
 }
 
 .footersocials{
-border:1px solid black;
 width: 30%;
 height:80%;
 margin: 0 5px;
